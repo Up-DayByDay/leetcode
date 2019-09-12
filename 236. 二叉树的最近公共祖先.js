@@ -27,6 +27,5 @@ var lowestCommonAncestor = function(root, p, q) {
     //递归遍历
     let left = lowestCommonAncestor(root.left, p, q);
     let right = lowestCommonAncestor(root.right, p, q);
-    console.log(root,left,right);
     return left === null ? right : right === null ? left : root;
 };

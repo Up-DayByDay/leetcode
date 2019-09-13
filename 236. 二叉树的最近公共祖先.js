@@ -18,6 +18,9 @@
  * @param {TreeNode} p
  * @param {TreeNode} q
  * @return {TreeNode}
+ * 迭代是人，递归是'计算机'
+ * 递归实际上不断地深层调用函数，直到函数有返回才会逐层的返回
+ * 
  */
 var lowestCommonAncestor = function(root, p, q) {
     //找到left right  返回
